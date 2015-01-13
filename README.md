@@ -4,7 +4,7 @@
 
 ```bash
 alias pull="/some-path/scripts/pull.sh" # pull develop || pull || pull master
-alias pull-all="/some-path/scripts/pull-all.sh" # pull project develop || pull project || pull project master
+alias pull-all="/some-path/scripts/pull-all.sh" # pull-all project develop || pull-all project
 alias build-frontend="/some-path/scripts/build-frontend-all.sh" # build all frontends with npm install
 ```
 
