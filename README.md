@@ -14,4 +14,5 @@ alias build-frontend="/some-path/scripts/build-frontend-all.sh" # build all fron
 alias link="/some-path/scripts/link.sh" # link all frontend into backend: link projectName [optional-directory]
 alias link-all="/some-path/scripts/link-all.sh" # link one frontend into backend: link [optional-directory]
 alias build-backend="/some-path/scripts/build-backend-all.sh" # build all backends with ant dev-clean
+alias setup-dev="/some-path/scripts/setup-dev-all.sh" # execute setup-dev script on all projects
 ```
