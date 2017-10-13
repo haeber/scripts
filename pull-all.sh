@@ -33,6 +33,8 @@ for dir in "${repositories[@]}"; do
    branchname=`git branch | grep '*' | cut -d' ' -f 2`;
    echo git pull --prune on branch ${branchname} in repository ${dir}
    git pull --prune
+   echo git town prune-branches on branch ${branchname} in repository ${dir}
+   git town prune-branches
 done
 
 cd ${old_dir}
